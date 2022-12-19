@@ -1,49 +1,60 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    body{
-    margin: 0;
-    }
-    ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    width:25%;
-    background-image: url(background-jpg);
-    position: fixed;
-    height:100%;
-    overflow:auto;
-    }
-    li a{
-    display: black;
-    color: #000;
-    padding: 8px 16px;
-    text- decoration: none;
-    }
-    li a.active {
-    background-color: orangered;
-    color: black;
-    }
-    li a.hover not(active) {
-    background-color: lightskyblue;
-    color: black;
-    }
-    </style>
-  </head>
-</body>
+<head>
+<style>
+body {
+  margin: 0;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 25%;
+  background-image: url(background.jpg);
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+
+li a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+li a.active {
+  background-color: orangered;
+  color: black;
+}
+
+li a:hover:not(.active) {
+  background-color: lightskyblue;
+  color: white;
+}
+</style>
+</head>
+<body>
+
 <ul>
-  <li> a href="travel.html">Villanueva</a></ul>
-  <li> a href="active" href="jasaan.html">jasaan</a></ul>
-  <li> a href="tagoloan.html">tagoloan</a></ul>
-  <li> a href="Home.html"home</a></ul>
+  <li><a href="travel.html">Villanueva</a></li>
+  <li><a class="active" href="jasaan.html">jasaan</a></li>
+  <li><a href="tagoloan.html">tagoloan</a></li>
+  <li><a href="index.html">Home</a></li>
+
 </ul>
-<div style="margin-left: 25%; padding: 1px 16px;height: 1000px: background color: lightskyblue;">
+
+<div style="margin-left:25%;padding:1px 16px;height:1000px;background-color:lightskyblue;">
   <center>
-    <h1> PLACE THAT I ALREADY VISIT IS JASAAN</h1>
-    < img src="jasaan.jpg" width="900" height="600">
-    <h3>  I already visit the Jasaan, Misamis Oriental. The view of jasaan is very beautiful.</h3>
-    </center>
-</div>
-</html>
-</body>
+  <h1>PLACE THAT I ALREADY VISIT IS JASAAN</h1>
+  <img src="Jasaan.jpg" width="900" height="600">
+  <h3> I already visit the Jasaan, Misamis Oriental. The view of jasaan is very beautiful. </h3>
+
+
+</center>
  
+</div>
+
+</body>
+</html>
